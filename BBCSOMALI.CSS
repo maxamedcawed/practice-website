@@ -1,0 +1,121 @@
+:root {
+	--primary_color: #cd0102;
+	--second_color: rgb(63, 63, 66);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html,body {
+	font-family: sans-serif;
+	line-height: 1.4;
+	color: #fff;
+
+}
+/*navbar menu style */
+.navbar {
+	width: 100%;
+	height: auto;
+	background-color: var(--primary_color);
+}
+.navbar ul{
+	display: flex;
+	align-items: center;
+	font-size: 25px;
+}
+.navbar li{
+	list-style: none;
+	margin: 0 15px;
+}
+.navbar a{
+	text-decoration: none;
+	color: rgb(255, 255, 255);
+}
+.menu-left {
+	flex: 1;
+	font-size: 15px;
+}
+
+/*brand-website*/
+.navbar-brand {
+	background-color: var(--primary_color);
+	padding: 1px;
+}
+
+.navbar-brand:hover {
+
+}
+
+/* headings */
+.news {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.sawirka-deni{
+	padding-top: 20px;
+}
+.heading {
+	color: black;
+	margin-top:38px;
+	margin-left: 9px;
+}
+
+/*
+.deni-paragraph{
+	font-size: 21px;
+	text-decoration: none;
+	color: black;
+}*/
+
+/*news columns: four columns*/
+.list {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-gap: 5px;
+}
+
+.list h1{
+	color: blue;
+	margin-bottom: 30px;
+
+}
+.list img{
+	width: 380px;
+	height: 250px;
+	margin-top: 50px;
+}
+/* footer  */
+.logo {
+	background-color: var(--primary_color);
+	display: grid;
+}
+.sub-footer p{
+	background-color: var(--second_color);
+	color: white;
+	margin-top: 0;
+	margin-left: 0;
+	cursor: pointer;
+	padding: 10px;
+}
+.mini-footer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	background-color: var(--second_color);
+	font-size: 19px;
+	padding: 30px;
+	cursor: pointer;
+}
+.mini-footer p{
+	padding: 14px;
+}
+/* copyright  */
+.copyright {
+	background-color: var(--second_color);
+	font-size: 21px;
+	cursor: pointer;
+	padding-bottom: 10px;
+}
+
+

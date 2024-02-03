@@ -1,0 +1,43 @@
+
+
+.div1 {
+    width: 96%;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    background-color: gray;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    font-family: Cambria, Cochin, Arial, Helvetica, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin: 0%;
+}
+
+.div2 {
+        float: left;
+    background-color: pink;
+    width: 20%;
+    height: 350px;  
+}
+
+.left-links {
+    display: block;
+    line-height: 30px;
+}
+
+.div3 {
+   background-color: antiquewhite;
+   height: 350px;
+   width: 80%;
+   float: left;
+
+}
+
+.footer {
+    background-color: #777;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+

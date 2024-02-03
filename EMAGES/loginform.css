@@ -1,0 +1,49 @@
+body {
+    background-color: blanchedalmond;
+}
+.login {
+   background-color: white;
+    width: 43%;
+    margin-top: 100px ;
+    margin-left: 140px;
+    height: 56vh;
+    border-radius: 6px;
+}
+.form-header {
+    padding-left: 150px;
+    padding-top: 12px;
+}
+
+.email {
+    width: 93%;
+    height: 30px;
+    margin: 0px 5px 13px 10px;
+    border: none;
+    background-color: whitesmoke;
+}
+.password {
+    width: 93%;
+    height: 30px;
+    margin: 0px 5px 23px 10px;
+    border: none;
+    background-color: whitesmoke;
+}
+
+.submit {
+    width: 93%;
+    height: 30px;
+    margin: 0px 5px 19px 10px;
+    border: none;
+    background-color: green;
+    color: white;
+   
+}
+.submit:hover {
+    background-color: blue;
+}
+
+.check-box {
+    margin-left: 160px
+}
+
+
